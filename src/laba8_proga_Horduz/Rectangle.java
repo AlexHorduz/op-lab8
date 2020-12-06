@@ -11,7 +11,7 @@ public class Rectangle extends Shape {
 	}
 	
 	public Rectangle(double width, double height) {
-		super(2*(width + height), width*height);
+		super(2 * (width + height), width * height);
 		this.setWidth(width);
 		this.setHeight(height);
 	}
@@ -42,6 +42,7 @@ public class Rectangle extends Shape {
 			return true;		
 		if (!(o instanceof Rectangle))
 			return false;
+		
 		Rectangle other = (Rectangle) o;
 		
 		if (this.width == other.getWidth() && this.height == other.getHeight())
@@ -54,25 +55,4 @@ public class Rectangle extends Shape {
 	public String toString() {
 		return ("Rectangle:  width = " + String.valueOf(width) + "  height = " + String.valueOf(height));
 	}
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
