@@ -30,6 +30,7 @@ public class Circle extends Shape{
 			return true;		
 		if (!(o instanceof Circle))
 			return false;
+		
 		Circle other = (Circle) o;
 		
 		if (this.radius == other.getRadius())
