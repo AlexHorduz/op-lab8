@@ -1,0 +1,35 @@
+Rectangle:  width = 1.0  height = 1.0
+4.0
+1.0
+22.0
+10.0
+
+Rectangle:  width = 5.0  height = 4.0
+18.0
+20.0
+30.0
+50.0
+
+
+Circle: radius = 1.0
+3.14
+6.28
+1.0
+78.5
+31.400000000000002
+5.0
+
+Circle: radius = 10.0
+314.0
+62.800000000000004
+10.0
+1256.0
+125.60000000000001
+20.0
+
+
+false
+false
+true
+false
+true
